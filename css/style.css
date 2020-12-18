@@ -1,0 +1,345 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+/*header start*/
+.navber{
+	background-color:white;
+}
+.container{
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid black;*/
+	float: left;
+
+
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid black;*/
+	float: right;
+
+}
+.menu ul{
+	float: right;
+
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top: 20px;
+
+}
+.menu ul li a{
+	color:#535D69;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 0px 10px;
+	transition: .4s;
+
+}
+.menu ul li:last-child a{
+	padding: 0px;
+}
+
+.menu ul li a:hover{
+	color: #BD233F;
+
+}
+button{
+
+	font-family: sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: #BD233F;
+	color: white;
+	border: none;
+	cursor: pointer;
+
+}
+button:focus{
+	outline: none;
+}
+/*header end*/
+
+
+/*banner start*/
+
+.banner{
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+
+}
+
+
+
+.b-text{
+	width: 50%;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.b-text h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: white;
+	margin: 0px;
+
+
+
+}
+.b-text h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: white;
+	margin: 0px;
+
+}
+.b-text h3{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: white;
+	margin: 0px;
+
+}
+.b-text p{
+	font-family: sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	margin-top: 25px;
+	line-height: 20px;
+
+}
+
+/*banner ends*/
+
+/*service start*/
+.service{
+	margin-top: 50px;
+}
+.top{
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+}
+.top h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: black;
+	
+
+}
+.top p{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 12px;
+
+}
+.bottom{}
+.single{
+	width: 28%;
+	/*border: 1px solid black;*/
+	float:left;
+	padding: 5px 10px;	
+	margin: 7px;
+}
+.single img{
+	display:block;
+	margin: 0px auto;
+}
+.single p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+/*service end*/
+
+/*service2 start*/
+.service2{
+	margin-top: 50px;
+}
+.s-left{
+ width:48%;
+ /*border: 1px solid red; */
+ float: left;
+ padding: 5px 10px;
+ margin-top: 50px;
+
+  }
+.s-left h4{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: black;
+	margin: 0px;
+	line-height: 60px;
+	
+
+}
+.s-left h5{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: black;
+	margin: 0px;
+
+
+
+}
+.s-left p{
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+
+}
+.s-right{
+	width: 48%;
+	float: left;
+	
+
+}
+.s-right img{
+	width: 80%;
+	margin-left: 20px;
+	margin-top: 45px;
+	
+}
+
+.s-left button{
+	margin-top: 20px;
+}
+/*service2 end*/
+
+/*feather start*/
+.feather{
+	margin-top: 50px;
+}
+.f-top{
+	
+	width: 50%;
+	margin: 0px auto;
+}
+.f-top h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+
+}
+.f-top p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+
+.double{
+	width: 29%;
+	/*border: 1px solid black;*/
+	float:left;
+	padding: 5px 10px;	
+	margin: 7px;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+
+}
+
+.double img{
+	display: block;
+	margin: 0px auto;
+}
+
+.double h1{
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.double p{
+	text-align: center;
+	font-size: 12px;
+}
+.s-f{
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+
+/*feather start*/
+
+/*contact start*/
+
+.footer{
+	background-color: black;
+	
+}
+.wrapper{
+	width: 70%;
+	/*border: 1px solid white;*/
+	margin: 0px auto;
+	overflow: hidden;
+}
+.third{
+	width: 31%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.third h1{
+	color: #BD233F;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.third p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+	padding: 5px 10px;
+}
+
+
+
+/*contact end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
